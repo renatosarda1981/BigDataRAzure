@@ -10,6 +10,7 @@ hist(dados, main = "Números de Acidentes Diários", xlab = "Acidentes", ylab = 
 mean(dados)
 sd(dados)
 median(dados)
+library(moments)
 
 ck = kurtosis(dados)
 ck
